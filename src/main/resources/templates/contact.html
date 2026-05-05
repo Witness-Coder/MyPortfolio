@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card-custom {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .btn-custom {
+            background-color: #4a6fa5;
+            color: white;
+        }
+
+        .btn-custom:hover {
+            background-color: #3b5a85;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-dark bg-dark px-4">
+    <a class="navbar-brand" th:href="@{/}">WittieCoder</a>
+</nav>
+
+<!-- CONTACT SECTION -->
+<div class="container mt-5">
+
+    <div class="card card-custom p-4">
+
+        <h2 class="mb-3">Contact Me</h2>
+
+        <p class="text-muted">
+            Feel free to reach out for collaboration or job opportunities.
+        </p>
+
+        <hr>
+
+        <!-- CONTACT INFO -->
+		<h5>📧 Email</h5>
+		<p>
+		    <a href="mailto:norbertwitness570@gmail.com">
+		        norbertwitness570@gmail.com
+		    </a>
+		</p>
+
+		<h5>📱 Phone</h5>
+		<p>
+		    <a href="tel:+255756309216">
+		        +255 757369216
+		    </a>
+		</p>
+
+		<h5>💻 GitHub</h5>
+		<p>
+		    <a href="https://github.com/Witness-Coder" target="_blank">
+		        github.com/Witness-Coder
+		    </a>
+		</p>
+        
+
+        
+
+      
+    </div>
+
+</div>
+
+</body>
+</html>
